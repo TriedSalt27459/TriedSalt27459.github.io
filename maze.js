@@ -526,7 +526,7 @@ window.onload = function() {
   };
   sprite = new Image();
   sprite.src =
-    "Roronoa_Zoro.png" +
+    "images/Roronoa_Zoro.png" +
     "?" +
     new Date().getTime();
   sprite.setAttribute("crossOrigin", " ");
