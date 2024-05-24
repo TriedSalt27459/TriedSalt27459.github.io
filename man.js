@@ -9,22 +9,45 @@ const resultText = document.getElementById("result-text");
 
 //Options values for buttons
 let options = {
-  fruits: [
-    "Apple",
-    "Strawberry",
-    "Orange",
-    "Pineapple",
-    "Banana",
-    "Watermelon",
+  Ez: [
+    "Einsteinium",
+    "SkibidiToilet",
+    "Himothy",
+    "FortniteBattlePass",
+    "MikeAndJayden",
+    "KendrickLamar",
+    "GrilledCheese",
+    "Hay",
+    "Hangman",
+    ],
+  Mediumish:  [
+    "Potassium",
+    "Phosphorus",
+    "Nitrogen",
+    "Titanium",
+    "Magnesium",
+    "Krypton",
+    "Chlorine",
+    "Calcium",
+    "Plutonium",
+    "Iron",
+    "Platinum",
+    "Aluminum",
+ "SonicDaHedgehog", "Rhinoceros", "Doge", "BlackPanther", "HomoSapiens", "Hippopotamus", "Lion", "Tiger", "Cheetah", "Leopard", "Panther",
+    "Sandwich",
+    "Burger",
+    "Pepperoni",
+    "Croissant",
+    "Baguettes",
+    "RottenEgg",
   ],
-  animals: ["Hedgehog", "Rhinoceros", "Squirrel", "Panther", "Goat", "Hippopotamus"],
-  restaurants: [
-    "Subway",
-    "Wendys",
-    "Burgerking",
-    "Popeyes",
-    "Chickfila",
-    "Mcdonalds",
+  PurePain:  [
+  "cinephotomicrography",
+  "intercrystallization",
+  "labyrinthibranchiate",
+  "antienvironmentalist",
+  "institutionalization",
+  "DontaskwhyididthisIdk",
   ],
 };
 
@@ -120,7 +143,7 @@ const initializer = () => {
             winCount += 1;
             //if winCount equals word length
             if (winCount == charArray.length) {
-              resultText.innerHTML = `<h2 class='win-msg'>You Win!!</h2><p>The word was <span>${chosenWord}</span></p>`;
+              resultText.innerHTML = `<h2 class='win-msg'>You Win. You better get it in fewer tries tho my guy/gal not gonna lie! And if u aint get anything wrong, yay u won a cookie!</h2><p>Btw, The word was <span>${chosenWord}</span></p>`;
               //block all buttons
               blocker();
             }
@@ -133,7 +156,7 @@ const initializer = () => {
         drawMan(count);
         //Count==6 because head,body,left arm, right arm,left leg,right leg
         if (count == 6) {
-          resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
+          resultText.innerHTML = `<h2 class='lose-msg'>You Lose. How do you fail at something this simple!!</h2><p>The word was <span>${chosenWord}</span></p>`;
           blocker();
         }
       }
