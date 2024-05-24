@@ -56,13 +56,13 @@ window.onload = function() {
 
     //load images
     shipImg = new Image();
-    shipImg.src = "SSBKK20_Goku.png";
+    shipImg.src = "images/SSBKK20_Goku.png";
     shipImg.onload = function() {
         context.drawImage(shipImg, ship.x, ship.y, ship.width, ship.height);
     }
 
     alienImg = new Image();
-    alienImg.src = "Fused_Zamasu.png";
+    alienImg.src = "images/Fused_Zamasu.png";
     createAliens();
 
     requestAnimationFrame(update);
