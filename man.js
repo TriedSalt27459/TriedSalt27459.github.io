@@ -18,7 +18,7 @@ let options = {
     "Baguettes",
     "RottenEgg",
     ],
-  Elements, Animals:  [
+  Elements, Anhmals:  [
     "Potassium",
     "Phosphorus",
     "Nitrogen",
