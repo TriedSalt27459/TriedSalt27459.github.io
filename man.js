@@ -9,7 +9,7 @@ const resultText = document.getElementById("result-text");
 
 //Options values for buttons
 let options = {
-  Ez: [
+  food: [
     "Einsteinium",
     "SkibidiToilet",
     "Himothy",
