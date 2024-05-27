@@ -33,7 +33,7 @@ let options = {
     "Iron",
     "Platinum",
     "Aluminum",
- "SonicDaHedgehog", "Rhinoceros", "Doge", "BlackPanther", "HomoSapiens", "Hippopotamus", "Lion", "Tiger", "Cheetah", "Leopard", "Panther",
+    "SonicDaHedgehog", "Rhinoceros", "Doge", "BlackPanther", "HomoSapiens", "Hippopotamus", "Lion", "Tiger", "Cheetah", "Leopard", "Panther",
     "Sandwich",
     "Burger",
     "Pepperoni",
