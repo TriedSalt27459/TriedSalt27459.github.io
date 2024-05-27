@@ -11,7 +11,6 @@ const resultText = document.getElementById("result-text");
 let options = {
   Food: [
     "GrilledCheese",
-
     "Sandwich",
     "Burger",
     "Pepperoni",
