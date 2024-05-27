@@ -9,16 +9,18 @@ const resultText = document.getElementById("result-text");
 
 //Options values for buttons
 let options = {
-  Food: [
+  Ez: [
+    "Einsteinium",
+    "SkibidiToilet",
+    "Himothy",
+    "FortniteBattlePass",
+    "MikeAndJayden",
+    "KendrickLamar",
     "GrilledCheese",
-    "Sandwich",
-    "Burger",
-    "Pepperoni",
-    "Croissant",
-    "Baguettes",
-    "RottenEgg",
+    "Hay",
+    "Hangman",
     ],
-  Elements, Animals:  [
+  Mediumish:  [
     "Potassium",
     "Phosphorus",
     "Nitrogen",
@@ -31,33 +33,21 @@ let options = {
     "Iron",
     "Platinum",
     "Aluminum",
-    "SonicDaHedgehog",
-    "Rhinoceros", 
-    "Doge", 
-    "BlackPanther", 
-    "HomoSapiens", 
-    "Hippopotamus", 
-    "Lion",
-    "Tiger", 
-    "Cheetah", 
-    "Leopard", 
-    "Panther",
+ "SonicDaHedgehog", "Rhinoceros", "Doge", "BlackPanther", "HomoSapiens", "Hippopotamus", "Lion", "Tiger", "Cheetah", "Leopard", "Panther",
+    "Sandwich",
+    "Burger",
+    "Pepperoni",
+    "Croissant",
+    "Baguettes",
+    "RottenEgg",
   ],
-  Random:  [
+  PurePain:  [
   "cinephotomicrography",
   "intercrystallization",
   "labyrinthibranchiate",
   "antienvironmentalist",
   "institutionalization",
   "DontaskwhyididthisIdk",
-  "Einsteinium",
-  "SkibidiToilet",
-  "Himothy",
-  "FortniteBattlePass",
-  "MikeAndJayden",
-  "KendrickLamar",
-  "Hay",
-  "Hangman",
   ],
 };
 
